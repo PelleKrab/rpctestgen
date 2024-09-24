@@ -6,7 +6,7 @@ build:
 	go build .
 
 buildgeth:
-	go build github.com/ethereum/go-ethereum/cmd/geth
+	go build ../go-ethereum/cmd/geth
 
 clean:
 	rm -rf rpctestgen tests
